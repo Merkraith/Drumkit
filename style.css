@@ -1,9 +1,16 @@
 html {
   font-size: 10px;
   background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
+  /* background-color: darkgrey; */
   background-size: cover;
 }
 
+h1 {
+
+  text-align: center;
+  color: #ffc600;
+  font-size: 2rem;
+}
 body,html {
   margin: 0;
   padding: 0;
@@ -13,7 +20,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 25vh;
   align-items: center;
   justify-content: center;
 }
