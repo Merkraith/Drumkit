@@ -9,7 +9,8 @@ h1 {
 
   text-align: center;
   color: #ffc600;
-  font-size: 2rem;
+  font-size: 4rem;
+  -webkit-text-stroke: 2px black;
 }
 body,html {
   margin: 0;
@@ -20,7 +21,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 25vh;
+  min-height: 20vh;
   align-items: center;
   justify-content: center;
 }
